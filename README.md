@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# So you've found a bug and want to do something about it?
 
-You can use the [editor on GitHub](https://github.com/Tom-Archer/github-contrib/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+All the libraries for Pimoroni products are available online and can be modified by anyone, so let's go!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+First things first, head over to the [Pimoroni GitHub page](https://github.com/pimoroni). On this page you'll find a listing of all the wonderful repositories maintained by the folks at Pimoroni. Generally there's one for each product/board that they produce, so go ahead and select the relevant repository. The examples on this page refer to the [Mote repository](https://github.com/pimoroni/Mote) which is pinned to the Pimoroni landing page.
 
-### Markdown
+## Repository Homepage
+The repository homepage shows an overview of what's going on with the repository. For now we're interested in the issues list, so click "Issues" at the top of the page.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## The Issues List
+The issues page shows a list of the 'active' issues that have been raised against the repository. These may be bugs, suggestions or new functionality. First check that the issue you've found isn't already present in this list.
 
-```markdown
-Syntax highlighted code block
+## Raising an Issue
+If the issue you've found is new, click "New issue" - at this point go ahead and create a GitHub account if you haven't already. Fill in as much information as you can about the issue. For example you might include the steps required to reproduce it. 
 
-# Header 1
-## Header 2
-### Header 3
+Once you've submitted the issue anyone is free to attempt to fix it, that could be the people of at Pimoroni, another GitHub user or yourself! If you know how to fix the issue, continue reading...
 
-- Bulleted
-- List
+## Forking the Repository
 
-1. Numbered
-2. List
+## Fixing the Code
 
-**Bold** and _Italic_ and `Code` text
+## Submitting the Changes
 
-[Link](url) and ![Image](src)
-```
+## Creating a Pull Request
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tom-Archer/github-contrib/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Glossary
+## What is GitHub?
+GitHub is one of the most widely-used websites for storing and maintaining code. 
+
+## What is a repository?
+A GitHub page will generally contain a number of repositories, you can think of these as project folders. 
