@@ -25,9 +25,49 @@ Once you've submitted the issue anyone is free to attempt to fix it, that could 
 
 ## Forking the Repository
 
-## Fixing the Code
+In order to make changes to the code, we first need to fork the repository. On the repository home page, click the 'Fork' button in the upper right. This creates a copy of the repository under your user account. 
+
+## Fixing the Code (Raspberry Pi)
+
+![Clone Repository](/images/6-Personal-Github-Mote.png)
+
+First we need to download the code to our Raspberry Pi, so create a folder and navigate to it using the terminal. (I normally use the 'Python' folder for this.) Then enter the following, replacing the URL with the appropriate repository location from your GitHub account: 
+
+```bash
+git clone https://github.com/Tom-Archer/mote.git
+```
+
+After a short moment the code should finish downloading. Now you can modify the code without affecting the original repository. Next we're going to create a branch to contain all the changes related to this issue. This isn't strictly necessary but it's good practice to segregate changes if you're working on multiple issues.
+
+```bash
+git branch issue-description
+```
+
+Finally we're going to tell Git that we want to work on the new branch:
+
+```bash
+git checkout issue-description
+```
+
+Now we can make the changes! Once you've done and the changes have been tested, it's time to submit them.
 
 ## Submitting the Changes
+
+```bash
+git status
+```
+
+```bash
+git add filename.py
+```
+
+```bash
+git commit -m 'Helpful message describing the change.'
+```
+
+```bash
+git push origin issue-description
+```
 
 ## Creating a Pull Request
 
