@@ -74,7 +74,7 @@ git add filename.py
 
 ![Git Add](/images/12-Git-Add.png)
 
-Re-running the status command shows that Git has now 'staged' the file. If you make further changes to the file you will have to stage it again. In order to store all the staged files, run the next command:
+Re-running the status command shows that Git has now 'staged' the file. If you make further changes to the file you will have to stage it again. Once you've staged all the necessary files, run the following command. Add a useful message to describe the changes.
 
 ```bash
 git commit -m 'Helpful message describing the change.'
@@ -82,13 +82,13 @@ git commit -m 'Helpful message describing the change.'
 
 ![Git Commit](/images/13-Git-Commit.png)	
 
-When we run the commit command, the staged files are permanently stored to the repository. 
+The 'commit' command creates a record of the changes to the reposity. We can move between 'commits' to view different snapshots of the repository.
 
 ```bash
 git push origin issue-description
 ```
 
-Finally, to update the GitHub repository, we have to 'push' the changes:
+So far the changes only affect your local version of the repository, to update the online (remote) repository, we have to 'push' the changes:
 
 ![Git Push](/images/14-Git-Push.png)
 
