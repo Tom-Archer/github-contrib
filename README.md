@@ -2,7 +2,9 @@
 
 All the libraries for Pimoroni products are available online and can be modified by anyone, so let's go!
 
-First things first, head over to the [Pimoroni GitHub page](https://github.com/pimoroni). On this page you'll find a listing of all the wonderful repositories maintained by the folks at Pimoroni. Generally there's one for each product/board that they produce, so go ahead and select the relevant repository. The examples on this page refer to the [Mote repository](https://github.com/pimoroni/Mote) which is pinned to the Pimoroni landing page.
+First things first, head over to the [Pimoroni GitHub page](https://github.com/pimoroni). On this page you'll find a listing of all the wonderful repositories maintained by the folks at Pimoroni. A repository contains all the code files, etc. for a particular library along with information about how those files have changes over time and who has changed them.
+
+Generally there's a repository for each product/board that Pimoroni produce, so go ahead and select the relevant repository. The examples on this page refer to the [Mote repository](https://github.com/pimoroni/Mote) which is pinned to the Pimoroni landing page.
 
 ![Pimoroni Home Page](/images/2-Pimoroni-Github.png)
 
@@ -27,7 +29,8 @@ Once you've submitted the issue anyone is free to attempt to fix it, that could 
 
 In order to make changes to the code, we first need to fork the repository. On the repository home page, click the 'Fork' button in the upper right. This creates a copy of the repository under your user account. 
 
-## Fixing the Code (Raspberry Pi)
+## Fixing the Code
+*The following instructions detail the process on the Raspberry Pi/Raspbian, if you're using a different operating system, [download Git](https://git-scm.com/downloads).
 
 ![Clone Repository](/images/6-Personal-Github-Mote.png)
 
@@ -53,31 +56,52 @@ Now we can make the changes! Once you've done and the changes have been tested, 
 
 ## Submitting the Changes
 
+Once you've completed the changes, browse to the repository root folder in the terminal and type the following:
+
 ```bash
 git status
 ```
+
+This will display all the changes you have made to the repository.
+
+![Git Status](/images/11-Git-Status.png)	
+
+To tell Git that we're happy with the change run the following command: 
 
 ```bash
 git add filename.py
 ```
 
+![Git Add](/images/12-Git-Add.png)
+
+Re-running the status command shows that Git has now 'staged' the file. If you make further changes to the file you will have to stage it again. In order to store all the staged files, run the next command:
+
 ```bash
 git commit -m 'Helpful message describing the change.'
 ```
+
+![Git Commit](/images/13-Git-Commit.png)	
+
+When we run the commit command, the staged files are permanently stored to the repository. 
 
 ```bash
 git push origin issue-description
 ```
 
+Finally, to update the GitHub repository, we have to 'push' the changes:
+
+![Git Push](/images/14-Git-Push.png)
+
 ## Creating a Pull Request
 
 
 
-
+# Further Information
+For more information see: [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
 # Glossary
-## What is GitHub?
-GitHub is one of the most widely-used websites for storing and maintaining code. 
+## What is Git?
+The purpose of Git is to manage a project, or a set of files, as they change over time. Git stores this information in a data structure called a repository.
 
-## What is a repository?
-A GitHub page will generally contain a number of repositories, you can think of these as project folders. 
+## What is GitHub?
+Whilst you can happily run Git locally on your home computer, GitHub allows you store and maintain code online!
