@@ -30,7 +30,7 @@ Once you've submitted the issue anyone is free to attempt to fix it, that could 
 In order to make changes to the code, we first need to fork the repository. On the repository home page, click the 'Fork' button in the upper right. This creates a copy of the repository under your user account. 
 
 ## Fixing the Code
-*The following instructions detail the process on the Raspberry Pi/Raspbian, if you're using a different operating system, [download Git](https://git-scm.com/downloads).
+*The following instructions detail the process on the Raspberry Pi/Raspbian, if you're using a different operating system, [download Git](https://git-scm.com/downloads).*
 
 ![Clone Repository](/images/6-Personal-Github-Mote.png)
 
